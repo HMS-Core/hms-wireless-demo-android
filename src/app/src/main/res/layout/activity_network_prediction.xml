@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NetworkPredictActivity">
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="230dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="typeValue"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/typeValue"
+        app:layout_constraintTop_toBottomOf="@+id/leaveTimerText" />
+
+    <EditText
+        android:id="@+id/typeValue"
+        android:layout_width="118dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/leaveingTimer"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <TextView
+        android:id="@+id/showState"
+        android:layout_width="178dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="80dp"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enteringTimer"
+        android:layout_width="118dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/leaveingTimer"
+        app:layout_constraintTop_toBottomOf="@+id/showState"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <EditText
+        android:id="@+id/leaveingTimer"
+        android:layout_width="118dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/enteringTimer"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <TextView
+        android:id="@+id/enteringTimerText"
+        android:layout_width="230dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="later, enter poor signal area"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/leaveTimerText"
+        app:layout_constraintStart_toEndOf="@+id/enteringTimer"
+        app:layout_constraintTop_toBottomOf="@+id/showState" />
+
+    <TextView
+        android:id="@+id/leaveTimerText"
+        android:layout_width="230dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="later, leave poor signal area"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/leaveingTimer"
+        app:layout_constraintTop_toBottomOf="@+id/enteringTimerText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
