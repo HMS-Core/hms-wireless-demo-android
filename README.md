@@ -34,9 +34,8 @@ See details: [HUAWEI Wireless Kit Development Preparation](https://developer.hua
 
 ## Result
 The sample app enables network QoE perception, signal prediction, and transmission quality feedback.
-<img src="result_1.jpg">
-<img src="result_2.jpg">
-<img src="result_3.jpg">
+
+<img src="https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/image/result_1.JPG" width="200"> <img src="https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/image/result_2.JPG" width="200"> <img src="https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/image/result_3.JPG" width="200">
 
 ## License
 Wireless Service Connection sample is licensed under the: [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
