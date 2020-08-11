@@ -1,4 +1,4 @@
-# Wireless Kit Demo
+# HMS Wireless Kit Demo
 ## Table of Contents
 
  * [Introduction](#introduction)
