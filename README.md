@@ -28,9 +28,9 @@ See details: [HUAWEI Wireless Kit Development Preparation](https://developer.hua
 
 ## Procedure
 1. Open the app.
-2. Touch NETWORKQOE. Then refer to Development Guide. 
-3. Touch REPORTAPPQUALITY. Then refer to Development Guide. 
-4. Touch NETWORKPREDICTION. Then refer to Development Guide. 
+2. Touch NETWORKQOE. Then refer to Development Guide(https://developer.huawei.com/consumer/en/codelab/HMSWirelessKit/index.html#4). 
+3. Touch REPORTAPPQUALITY. Then refer to Development Guide(https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/client-dev-procedure-0000001051075068). 
+4. Touch NETWORKPREDICTION. Then refer to Development Guide(https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/client-dev-procedure-0000001051075068). 
 
 ## Result
 The sample app enables network QoE perception, signal prediction, and transmission quality feedback.
