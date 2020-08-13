@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/type"
         android:layout_width="230dp"
-        android:layout_height="33dp"
+        android:layout_height="55dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:gravity="center"
@@ -21,7 +21,7 @@
     <EditText
         android:id="@+id/typeValue"
         android:layout_width="118dp"
-        android:layout_height="33dp"
+        android:layout_height="55dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -41,7 +41,7 @@
     <EditText
         android:id="@+id/enteringTimer"
         android:layout_width="118dp"
-        android:layout_height="33dp"
+        android:layout_height="55dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -52,7 +52,7 @@
     <EditText
         android:id="@+id/leaveingTimer"
         android:layout_width="118dp"
-        android:layout_height="33dp"
+        android:layout_height="55dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -62,7 +62,7 @@
     <TextView
         android:id="@+id/enteringTimerText"
         android:layout_width="230dp"
-        android:layout_height="33dp"
+        android:layout_height="55dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:text="later, enter poor signal area"
@@ -74,7 +74,7 @@
     <TextView
         android:id="@+id/leaveTimerText"
         android:layout_width="230dp"
-        android:layout_height="33dp"
+        android:layout_height="55dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:gravity="center"
