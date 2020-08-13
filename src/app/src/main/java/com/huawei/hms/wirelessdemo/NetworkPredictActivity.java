@@ -118,9 +118,9 @@ public class NetworkPredictActivity extends AppCompatActivity {
                 int enteringTime = intent.getIntExtra("enteringTime", 0);
                 int leavingTime = intent.getIntExtra("leavingTime", 0);
                 int type = intent.getIntExtra("type", 0);
-                enteringTimer.setText(enteringTime);
-                leaveingTimer.setText(leavingTime);
-                typeValue.setText(type);
+                enteringTimer.setText(Integer.toString(enteringTime));
+                leaveingTimer.setText(Integer.toString(leavingTime));
+                typeValue.setText(Integer.toString(type));
             }
         };
 
