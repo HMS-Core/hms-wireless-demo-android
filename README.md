@@ -38,6 +38,8 @@ The sample app enables network QoE perception, signal prediction, and transmissi
 <img src="https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/image/result_1.JPG" width="200"> <img src="https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/image/result_2.JPG" width="200"> <img src="https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/image/result_3.JPG" width="200">
 
 ## Question or issues
+If you want to evaluate more about HMS Core, [r/HMSCore on Reddit](https://www.reddit.com/r/HMSCore/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
+
 If you have questions about how to use HMS samples, try the following options:
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
 **huawei-mobile-services**.
