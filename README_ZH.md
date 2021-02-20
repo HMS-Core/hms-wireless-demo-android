@@ -14,7 +14,7 @@ WirelessTestDemo演示程序展示了如何构建一个Android应用以提供网
 ## 快速入门
 
 1. 检查Android Studio开发环境是否准备就绪。在Android Studio中打开文件“build.gradle”所在的示例代码工程目录。在已安装最新Huawei Mobile Service(HMS)的设备或模拟器上运行TestApp。
-2. 注册[华为账号](https://developer.huawei.com/consumer/cn/).
+2. 注册[华为账号](https://developer.huawei.com/consumer/cn/)。
 3. 创建应用，在AGC (AppGallery Connect)中配置应用信息。详情请参考[HUAWEI Wireless Kit 开发准备](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/config-agc-0000001050749961-V5)。
 4. 构建此demo前，请先将demo导入Android Studio（3.X版本或以上）。
 5. 配置样例代码：
@@ -28,8 +28,8 @@ WirelessTestDemo演示程序展示了如何构建一个Android应用以提供网
 ## 操作步骤
 1. 打开应用。
 2. 点击“NETWORKQOE”。详情请参考[开发步骤](https://developer.huawei.com/consumer/cn/codelab/HMSWirelessKit/index.html#4)。 
-3. 点击“REPORTAPPQUALITY”。详情请参考[开发步骤](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/client-dev-procedure-0000001051075068). 
-4. 点击“NETWORKPREDICTION”。详情请参考[开发步骤](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/client-dev-procedure-0000001051075068). 
+3. 点击“REPORTAPPQUALITY”。详情请参考[开发步骤](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/client-dev-procedure-0000001051075068)。
+4. 点击“NETWORKPREDICTION”。详情请参考[开发步骤](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/client-dev-procedure-0000001051075068)。
 
 ## 运行结果
 启用网络QoE信息感知、网络预测、传输质量反馈功能。
@@ -41,9 +41,9 @@ WirelessTestDemo演示程序展示了如何构建一个Android应用以提供网
 
 如您对示例代码使用有疑问，请前往：
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services)提问，上传问题时请打上huawei-mobile-services标签。
-- [华为开发者论坛](https://developer.huawei.com/consumer/cn/forum/block/hms-core)，获得更多意见与建议.
+- [华为开发者论坛](https://developer.huawei.com/consumer/cn/forum/block/hms-core)，获得更多意见与建议。
 
 如您在运行示例代码时出现错误，请到GitHub提交[issue](https://github.com/HMS-Core/hms-push-serverdemo-go/issues)或[Pull Request](https://github.com/HMS-Core/hms-push-serverdemo-go/pulls)。
 
 ## 许可证
-Wireless Service Connection经过[Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)授权许可.
+Wireless Service Connection经过[Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)授权许可。
