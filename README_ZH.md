@@ -1,4 +1,5 @@
 # 华为无线传输服务示例代码
+[English](https://github.com/HMS-Core/hms-wireless-demo-android) | 中文
 ## 目录
 
  * [简介](#简介)
