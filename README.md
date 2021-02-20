@@ -1,4 +1,6 @@
 # HMS Wireless Kit Demo
+English | [中文](https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/README_ZH.md)
+
 ## Table of Contents
 
  * [Introduction](#introduction)
