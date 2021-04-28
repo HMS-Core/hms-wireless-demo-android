@@ -26,12 +26,14 @@ import androidx.appcompat.app.AppCompatActivity;
 /**
  * Wireless kit test demo
  *
- * @since 2020-07-9
+ * @since 2020-07-09
  */
 public class MainActivity extends AppCompatActivity {
     private Button reportAppQuality;
     private Button networkPrediction;
     private Button networkQoe;
+    private Button mWifiEnhance;
+    private Button mDualWifi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
         reportAppQuality = findViewById(R.id.ReportAppQuality);
         networkPrediction = findViewById(R.id.NetworkPrediction);
         networkQoe = findViewById(R.id.NetworkQoe);
+        mWifiEnhance = findViewById(R.id.WifiEnhance);
+        mDualWifi = findViewById(R.id.DualWifi);
 
         // Click ReportAppQuality button to start ReportAppQualityActivity
         reportAppQuality.setOnClickListener(new View.OnClickListener() {
@@ -64,6 +68,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, NetworkQoeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Click WifiEnhance button to start WifiEnhanceActivity
+        mWifiEnhance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, WifiEnhanceActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Click DualWifi button to start DualWifiActivity
+        mDualWifi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DualWifiActivity.class);
                 startActivity(intent);
             }
         });

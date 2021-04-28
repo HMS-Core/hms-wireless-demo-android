@@ -46,7 +46,7 @@ import java.text.SimpleDateFormat;
 /**
  * App network quality feedback test demo
  *
- * @since 2020-07-9
+ * @since 2020-07-09
  */
 public class ReportAppQualityActivity extends AppCompatActivity {
     private static final String TAG = "appQuality";
@@ -111,9 +111,9 @@ public class ReportAppQualityActivity extends AppCompatActivity {
                 })
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
-                    public void onFailure(Exception e) {
-                        if (e instanceof ApiException) {
-                            ApiException ex = (ApiException) e;
+                    public void onFailure(Exception exception) {
+                        if (exception instanceof ApiException) {
+                            ApiException ex = (ApiException) exception;
                             int errCode = ex.getStatusCode();
                             Log.e(TAG, "Get intent failed:" + errCode);
                         }
@@ -122,7 +122,7 @@ public class ReportAppQualityActivity extends AppCompatActivity {
         }
 
         // Click sendButton to report app quality
-        sendButton.setOnClickListener( new View.OnClickListener() {
+        sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Log.i(TAG, "onClick");
@@ -172,12 +172,15 @@ public class ReportAppQualityActivity extends AppCompatActivity {
 
     private int packageCode(Context context) {
         PackageManager manager = context.getPackageManager();
+        if (manager == null) {
+            return 0;
+        }
         int code = 0;
         try {
             PackageInfo info = manager.getPackageInfo(context.getPackageName(), 0);
             code = (int) info.getLongVersionCode();
         } catch (PackageManager.NameNotFoundException e) {
-            e.printStackTrace();
+            Log.e(TAG, "getPackageInfo failed");
         }
 
         return code;

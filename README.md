@@ -1,10 +1,8 @@
-# HMS Wireless Kit Demo
-English | [中文](https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/README_ZH.md)
-
+# Wireless Kit Demo
 ## Table of Contents
 
  * [Introduction](#introduction)
- * [Getting Started](#getting-started)
+ * [Getting Started](#Getting Started)
  * [Supported Environments](#supported-environments)
  * [Procedure](#procedure)
  * [Result](#result)
@@ -30,24 +28,15 @@ See details: [HUAWEI Wireless Kit Development Preparation](https://developer.hua
 
 ## Procedure
 1. Open the app.
-2. Touch NETWORKQOE. Then refer to [Development Guide](https://developer.huawei.com/consumer/en/codelab/HMSWirelessKit/index.html#4). 
-3. Touch REPORTAPPQUALITY. Then refer to [Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/client-dev-procedure-0000001051075068). 
-4. Touch NETWORKPREDICTION. Then refer to [Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/client-dev-procedure-0000001051075068). 
+2. Touch NETWORKQOE. Then refer to Development Guide. 
+3. Touch REPORTAPPQUALITY. Then refer to Development Guide. 
+4. Touch NETWORKPREDICTION. Then refer to Development Guide. 
 
 ## Result
 The sample app enables network QoE perception, signal prediction, and transmission quality feedback.
-
-<img src="https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/image/result_1.JPG" width="200"> <img src="https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/image/result_2.JPG" width="200"> <img src="https://github.com/HMS-Core/hms-wireless-demo-android/blob/master/image/result_3.JPG" width="200">
-
-## Question or issues
-If you want to evaluate more about HMS Core, [r/HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
-
-If you have questions about how to use HMS samples, try the following options:
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
-`huawei-mobile-services`.
-- [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) HMS Core Module is great for general questions, or seeking recommendations and opinions.
-
-If you run into a bug in our samples, please submit an [issue](https://github.com/HMS-Core/hms-wireless-demo-android/issues) to the Repository. Even better you can submit a [Pull Request](https://github.com/HMS-Core/hms-wireless-demo-android/pulls) with a fix.
+<img src="result_1.jpg">
+<img src="result_2.jpg">
+<img src="result_3.jpg">
 
 ## License
 Wireless Service Connection sample is licensed under the: [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).

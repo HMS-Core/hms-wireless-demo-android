@@ -25,6 +25,8 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/leaveingTimer"
         tools:layout_editor_absoluteX="32dp" />
 
@@ -46,6 +48,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/leaveingTimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/showState"
         tools:layout_editor_absoluteX="32dp" />
 
@@ -56,6 +60,8 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enteringTimer"
         tools:layout_editor_absoluteX="32dp" />
 

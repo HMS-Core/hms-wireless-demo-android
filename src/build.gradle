@@ -21,6 +21,7 @@ allprojects {
         google()
         jcenter()
         maven { url 'https://developer.huawei.com/repo/'}
+        maven {url 'http://szg1.artifactory.inhuawei.com/artifactory/sz-maven-public/'}
     }
 }
 

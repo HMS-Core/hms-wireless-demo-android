@@ -6,29 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/ReportAppQuality"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="46dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="81dp"
-        android:text="ReportAppQuality"
-        app:layout_constraintBottom_toTopOf="@+id/NetworkPrediction"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/NetworkPrediction"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="507dp"
-        android:layout_marginStart="64dp"
-        android:text="NetworkPrediction"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ReportAppQuality" />
-
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -40,12 +17,56 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/NetworkQoe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:text="NetworkQoe"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="276dp" />
+            android:id="@+id/NetworkQoe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NetworkQoe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="16dp"/>
+
+    <Button
+            android:id="@+id/ReportAppQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:text="ReportAppQuality"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="16dp"/>
+
+    <Button
+            android:id="@+id/NetworkPrediction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="256dp"
+            android:text="NetworkPrediction"
+            app:layout_constraintLeft_toRightOf="@+id/ReportAppQuality"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/WifiEnhance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="188dp"
+            android:text="WifiEnhance"
+            app:layout_constraintLeft_toRightOf="@+id/NetworkPrediction"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/DualWifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="324dp"
+            android:text="DualWifi"
+            app:layout_constraintLeft_toRightOf="@+id/WifiEnhance"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
